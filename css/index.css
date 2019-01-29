@@ -5,22 +5,12 @@ body {
 }
 
 .text-2 p,
-.text-3 p,
 div p {
   margin-bottom: 1em;
 }
 
 .container {
   float: left;
-  clear: both;
-  width: 100%;
-  height: 556px;
-  padding: 10px;
-}
-
-.container .text {
-  width: 71.1666666666%;
-  min-height: 136px;
 }
 
 .text {
@@ -31,12 +21,30 @@ div p {
 
 .wrapper {
   float: left;
-  width: 27.1666666666%;
-  min-width: 100px;
-  max-width: 200px;
-  height: 534px;
-  margin-left: 1.6627604166%;
-  overflow: visible;
+}
+
+._container {
+  clear: both;
+}
+
+._element {
+  position: relative;
+  z-index: 5;
+  width: 231.2138728323%;
+  height: 149px;
+  margin-left: -103.65992%;
+}
+
+.container-1 {
+  width: 90%;
+  height: 149px;
+}
+
+.container-3 {
+  width: 100%;
+  height: 556px;
+  margin-top: 65px;
+  padding: 10px;
 }
 
 .text-1 {
@@ -52,10 +60,37 @@ div p {
 }
 
 .text-3 {
+  position: relative;
   clear: both;
-  width: 92.3333333333%;
-  min-height: 154px;
-  padding: 10px;
+  z-index: 6;
+  width: 83.1666666666%;
+  min-height: 149px;
+  margin-top: -149px;
+}
+
+.text-4 {
+  width: 83.7288135593%;
+  min-height: 136px;
+}
+
+.wrapper-1 {
+  position: relative;
+  z-index: 7;
+  width: 15.6166666666%;
+  min-width: 125px;
+  height: 149px;
+  margin: -149px 0 0 84.3837453358%;
+  overflow: hidden;
+}
+
+.wrapper-2 {
+  clear: both;
+  width: 16.1016949152%;
+  min-width: 50px;
+  max-width: 200px;
+  height: 534px;
+  margin: -514px 0 0 84.5762699999%;
+  overflow: visible;
 }
 
 .text a {
